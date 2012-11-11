@@ -14,15 +14,7 @@
 			var makeevent = Math.floor((Math.random()*10)+1);
 			console.log(makeevent);
 			if (makeevent === 7) {
-				fade(idmaincontent, 150, 1);
-				setTimeout(function(){
-					fade(idmaincontent, 150, 0);
-					$("#slendy").show();
-					setTimeout(function(){
-						$("#slendy").hide();
-						fade(idmaincontent, 300, 0);
-					},500);
-				},150);
+				fade(idmaincontent, 150, 0);
 			}	
 		}
 		setInterval(myFunction, 2000);
