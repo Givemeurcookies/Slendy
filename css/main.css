@@ -29,6 +29,13 @@ body {
 	opacity: 0;
 	z-index: 5;
 }
+#rainbow {
+	position:absolute;
+	z-index:6;
+	font-size: 350px;
+	text-align: center;
+	display:none;
+}
 
 
 
