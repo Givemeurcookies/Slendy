@@ -3,27 +3,30 @@ padding:0;
 margin:0;
 }
 body {
-	font-size: 15px;
 	background-color:#060606;
-	background-image: url('img/bk.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
 }
 #slendy {
 	width:130px;
 	height:130px;
 	position:absolute;
 	display:none;
-	top:245px;
+	top:258px;
 	left:53%;
+	z-index: 4;
+}
+#bk {
+	position:absolute;
+	top:80px;
+	left:50%;
+	margin-left:-512px;
+	z-index: 3;
 }
 #staticbk {
-	width:100%;
-	height:100%;
+	position:absolute;
+	top:80px;
+	left:50%;
+	margin-left:-512px;
 	opacity: 0;
-	background-image: url('img/staticbk.gif');
-	background-repeat: no-repeat;
-	background-position: center;
 	z-index: 5;
 }
 
